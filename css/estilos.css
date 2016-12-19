@@ -1,0 +1,92 @@
+#sep-logo, #banner-tec{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#txt-sesion{
+    font-size: 2em;
+    color: rgb(229,57,53);
+    padding: 5px;
+    display:block;
+}
+#hr-sesion{
+    margin-top: -10px;
+}
+#form-sesion{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#input-sesion,#input-sesionb{
+    margin-top: 5px;
+}
+#input-sesionb{
+    margin-right: 1px;
+}
+#hipervinculo-sesion{
+    margin-right: 1px;
+    color:rgb(13,71,161);
+}
+
+/*ESTILOS DEL SLIDESHOW*/
+.s-img{
+width: 100%;
+max-height: 400px;
+}
+
+/*ESTILOS PARA LOS RESULTADOS DE LAS INVESTIGACIONES*/
+#inves{
+    text-decoration: none;
+    color: black;
+}
+#folio{
+    color: dimgray;
+}
+
+/*PARA LAS IMAGENES*/
+#icono-inv{
+    width: 100px;
+}
+
+/*Estilo para footer*/
+#footer{
+    height: 90px;
+    background-color: #222d32;
+}
+#footer p{
+    color: white;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (smartphone, 768px and down) */
+@media (max-width: 768px) { 
+/*ESTILOS DEL SLIDESHOW*/
+.s-img{
+    width: 100%;
+    max-height: 200px;
+  }
+    #copocyt-logo,#cenidet-logo,#ipn-logo,#academia-logo{
+    width: 80%;
+}
+}
+
+ 
+@media (max-width: 992px) { 
+/*ESTILOS DEL SLIDESHOW*/
+.s-img{
+    width: 100%;
+    max-height: 300px;
+  }
+  #copocyt-logo,#cenidet-logo,#ipn-logo,#academia-logo{
+    width: 60%;
+}
+}
+
+@media (min-width: 418px max-width: 985px) { 
+  #copocyt-logo,#cenidet-logo,#ipn-logo,#academia-logo{
+    width: 50%;
+}
+ }
